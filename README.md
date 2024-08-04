@@ -8,7 +8,7 @@ This repo contains the video demo located in 'Demo' folder.
 ![image](https://github.com/user-attachments/assets/cf637caf-b87b-425c-90c8-e629e49d60a9)  
   
 **Restaurant Profile:**  
-![image](https://github.com/user-attachments/assets/61c4b2a3-bcaa-4c70-9224-03e37aaeb264)  
+![image](https://github.com/user-attachments/assets/747e6cf4-5ed5-4776-b160-75196aa525a4)
 
 
 
