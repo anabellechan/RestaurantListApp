@@ -1,6 +1,6 @@
 # RestaurantList
 
-This repo contains the video demo located in 'Demo' folder.  
+## This repo contains the video demo located in 'Demo' folder.  
 ![image](https://github.com/user-attachments/assets/a11d030b-a0b3-4370-aa7d-13b383f6c885)  
   
 **List of Restaurants Added by User:**  
@@ -42,6 +42,8 @@ that they found online or a choice to leave ratings blank.
 **Description**- description: text datatype. Current version only allows for editing of description after creating a restaurant. Hence description can be edited within the 'Edit' feature. Description can also be left blank.  
 **Google Image**- image: text datatype. Allows for href url links from google to be inserted in the database. Assumption for the future application is that user would be able to view a database of restaurants and add them to their own list, so images are taken on a full list of all restaurants in singapore scraped and stored within a database.  
 **Cuisine**- cuisine: Varchar(30) datatype. Allows user to select from a list of cuisine categories - Italian, Chinese, Muslim, Indian, Korean, Japanese. Future application could include more varieties of cuisine categories.  
+
+## This repo contains the video demo located in 'Demo' folder if you do not wish to install.  
 
 # Installation for Food-List App
 This repository contains scripts for setting up the Food List.
@@ -95,7 +97,6 @@ These are the step-by-step instructions to set up the PostgreSQL database for th
 
 Ensure the database restaurant_list exists before running the import command. If it does not exist, create it using the following command:
 postgres as user, connecting to port 5432:
-
 ```psql -U postgres -h localhost -p 5432 -c "CREATE DATABASE restaurant_list;"```
 
 3. **Import the SQL Dump File**
