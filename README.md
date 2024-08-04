@@ -1,6 +1,6 @@
 # RestaurantList
 
-## Current live version available at https://anabellechan.github.io/RestaurantListApp/. 
+### Current live version available at https://anabellechan.github.io/RestaurantListApp/. ###
 Current live version 'About Us' tab as well as individual profiles of each restaurant is disabled at the moment as I created a full-stack app that will require installation of the backend node.js as well as Database for it to work, or to host it on a cloud network.
 However, I recorded a full video demo of the full-stack application.
 ## This repo contains the video demo located in 'Demo' folder.
