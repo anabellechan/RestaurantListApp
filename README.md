@@ -113,57 +113,57 @@ This repo contains the restaurant_table.sql file in the root directory. Use the 
 
 HTML & CSS:
 
-    HTML: The backbone of the frontend client, HTML will structure the content of the web pages. It ensures that the data is organized in a way that is accessible and easily readable.
-    CSS: Used for styling the application, CSS will ensure that the user interface (UI) is visually appealing and responsive.
+HTML: The backbone of the frontend client, HTML will structure the content of the web pages. It ensures that the data is organized in a way that is accessible and easily readable.
+CSS: Used for styling the application, CSS will ensure that the user interface (UI) is visually appealing and responsive.
 
 JavaScript:
-    JavaScript is used to add interaction to the web pages. It allows for dynamic content updates, form validations, and event handling, enhancing the UX.
+JavaScript is used to add interaction to the web pages. It allows for dynamic content updates, form validations, and event handling, enhancing the UX.
 
 React:
-    React is chosen for its component-based architecture, which allows for reusable UI components. It improves development efficiency and makes the codebase easier to manage and scale.
-    React Router: This will manage the routing of the application, ensuring smooth navigation between different pages (e.g., home, about, restaurant profile).
-    React Bootstrap: A UI framework that combines the flexibility of Bootstrap with the power of React components, enabling rapid development of a responsive UI.
+React is chosen for its component-based architecture, which allows for reusable UI components. It improves development efficiency and makes the codebase easier to manage and scale.
+React Router in index.js: This will manage the routing of the application, ensuring smooth navigation between different pages (e.g., home, about, restaurant profile).
+React Bootstrap: A UI framework that combines the flexibility of Bootstrap with the power of React components, enabling rapid development of a responsive UI.
 
 ### Backend: Node.js, Express.js ###
 
 Node.js:
 
-    Node.js is chosen for its non-blocking, event-driven architecture, which is ideal for handling multiple I/O operations efficiently. It allows for the development of scalable and high-performance web applications.
-    Express: A lightweight web application framework for Node.js, Express simplifies the process of setting up a web server. It provides robust routing and middleware capabilities, making it easier to build and maintain the backend.
+Node.js is chosen for its non-blocking, event-driven architecture, which is ideal for handling multiple I/O operations efficiently. It allows for the development of scalable and high-performance web applications.
+Express: A lightweight web application framework for Node.js, Express simplifies the process of setting up a web server. It provides robust routing and middleware capabilities, making it easier to build and maintain the backend.
 
 RESTful API:
 
-    The backend will expose the RESTful API endpoints to handle CRUD (Create, Read, Update, Delete) operations for the restaurant data. This API will be consumed by the frontend to perform various actions like adding, editing, and deleting restaurants.
+The backend will expose the RESTful API endpoints to handle CRUD (Create, Read, Update, Delete) operations for the restaurant data. This API will be consumed by the frontend to perform various actions like adding, editing, and deleting restaurants.
 
 Database: PostgreSQL - Database: Restaurant_list. Table: restaurants
 
 PostgreSQL:
 
-    PostgreSQL is chosen for its reliability, robustness, and SQL compliance. It supports complex queries and transactions, making it suitable for handling the restaurant data.
-    pgVector: An extension of PostgreSQL that supports vector similarity search, which can be useful for implementing features like recommendations or advanced search functionalities based on user preferences.
+PostgreSQL is chosen for its reliability, robustness, and SQL compliance. It supports complex queries and transactions, making it suitable for handling the restaurant data.
+pgVector: An extension of PostgreSQL that supports vector similarity search, which can be useful for implementing features like recommendations or advanced search functionalities based on user preferences.
 
 
 ## Non-Functional Considerations ##
 
 ### Performance: ###
 
-    React: The use of React ensures that the frontend is fast and responsive. React's virtual DOM and efficient diffing algorithm reduce the amount of DOM manipulation, leading to better performance.
-    Node.js: The asynchronous nature of Node.js ensures that the backend can handle multiple requests simultaneously without blocking the event loop, improving the performance of the application.
+React: The use of React ensures that the frontend is fast and responsive. React's virtual DOM and efficient diffing algorithm reduce the amount of DOM manipulation, leading to better performance.
+Node.js: The asynchronous nature of Node.js ensures that the backend can handle multiple requests simultaneously without blocking the event loop, improving the performance of the application.
 
 ### Security: ###
 
-    Express Middleware: Middleware CORS was used to enhance security by setting various HTTP headers and enabling Cross-Origin Resource Sharing.
-    Authentication & Authorization: Although not implemented yet, it can be implemented by using either Cookies and Sessions or JWT (JSON Web Tokens) for secure authentication and authorization, ensuring that only authorized users can perform certain actions.
+Express Middleware: Middleware CORS was used to enhance security by setting various HTTP headers and enabling Cross-Origin Resource Sharing.
+Authentication & Authorization: Although not implemented yet, it can be implemented by using either Cookies and Sessions or JWT (JSON Web Tokens) for secure authentication and authorization, ensuring that only authorized users can perform certain actions.
 
 ### Scalability: ###
 
-    Component-Based Architecture: React’s component-based architecture makes it easy to scale the frontend by reusing components and adding new features without affecting the existing codebase.
-    Microservices: The Nodejs backend can be developed as microservices, allowing for independent deployment and scaling of different parts of the application as needed. Nodejs also makes code modular and easy to maintain as well as scale up.
+Component-Based Architecture: React’s component-based architecture makes it easy to scale the frontend by reusing components and adding new features without affecting the existing codebase.
+Microservices: The Nodejs backend can be developed as microservices, allowing for independent deployment and scaling of different parts of the application as needed. Nodejs also makes code modular and easy to maintain as well as scale up.
     
 ### User Experience: ###
 
-    Responsive Design: Using CSS frameworks like Bootstrap ensures that the application is responsive.
-    Intuitive UI: A well-designed UI enhances user satisfaction and engagement, making it easy for users to navigate the application and perform desired actions.
+Responsive Design: Using CSS frameworks like Bootstrap ensures that the application is responsive.
+Intuitive UI: A well-designed UI enhances user satisfaction and engagement, making it easy for users to navigate the application and perform desired actions.
 
 Through this stack, we ensure that the restaurant list application is robust, scalable, and easy to maintain, with seamless UX while meeting performance, security and scalability requirements.
 
