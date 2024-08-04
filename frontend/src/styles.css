@@ -1,0 +1,101 @@
+.custom-table {
+    font-size: 20px;
+  }
+  
+  .custom-table th, .custom-table td {
+    padding: 15px; 
+  }
+
+  h1 {
+    color: #df335b;
+    font-weight: bold;
+  }
+
+  .btn-pink {
+    background-color: #EA246E; 
+    border-color: #EA246E; 
+  }
+  
+  .btn-pink:hover {
+    background-color: #D32063; 
+    border-color: #D32063; 
+  }
+
+  .btn-darkpink {
+    padding: auto;
+    margin:8px;
+    background-color: #BB1D58; 
+    border-color: #BB1D58; 
+    color: white;  
+  }
+  
+  .btn-darkpink:hover {
+    background-color: #D32063; 
+    border-color: #D32063; 
+  }
+
+  .btn-orange{
+    padding: auto;
+    background-color: #D72C0E; 
+    border-color: #D72C0E; 
+    color: white;  
+  }
+  
+  .btn-orange:hover {
+    background-color: #9e220c; 
+    border-color: #9e220c; 
+  }
+
+  .btn-grey {
+    background-color: white; 
+    border-color: grey; 
+  }
+  
+  .btn-grey:hover {
+    background-color: #F2F2F2; 
+    border-color: black; 
+    color: black;
+  }
+
+  .stretched-img {
+    width: 105%; 
+    height: auto; 
+    display: block; 
+  }
+
+  .rounded-image {
+    border-radius: 50%; /* Makes the image circular */
+  }
+
+  .table-width {
+    min-width:180px;
+  }
+
+  .table-width-cuisine {
+    min-width:200px;
+  }
+
+  .table-name-width {
+    min-width:300px;
+  }
+
+  .dropdown-menu.show {
+    display: block;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+    z-index: 1000;
+  }
+  
+  /* Style the toggle button with three dots */
+  .threedots {
+    font-size: 20px; /* Adjust size as needed */
+    color: #333; /* Adjust color as needed */
+    cursor: pointer;
+  }
+
+  .force-dropdown-down .dropdown-menu {
+    transform: none !important;
+    top: 100% !important;
+    bottom: auto !important;
+  }
