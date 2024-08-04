@@ -33,15 +33,15 @@ that they found online or a choice to leave ratings blank.
 
 ## Database and Data Types
 ![image](https://github.com/user-attachments/assets/563fda1c-2681-4d3a-943b-1bc78c24fcce)  
-Primary Key: id: Integer (auto-incremented, Non-null)  
-Restaurant Name- name: Varchar (100) datatype.  
-Address- location: Varchar (100) datatype.  
-Google rating- rating: Integer datatype. User would key in the online review ratings   
+**Primary Key**: id: Integer (auto-incremented, Non-null)  
+**Restaurant Name**- name: Varchar (100) datatype.  
+**Address**- location: Varchar (100) datatype.  
+**Google rating**- rating: Integer datatype. User would key in the online review ratings   
 that they found online or a choice to leave ratings blank.  
-Upload_Date- upload_date: date datatype. Upload date is created upon saving a creation of a restaurant data through 'Add Restaurant'.  
-Description- description: text datatype. Current version only allows for editing of description after creating a restaurant. Hence description can be edited within the 'Edit' feature. Description can also be left blank.  
-Google Image- image: text datatype. Allows for href url links from google to be inserted in the database. Assumption for the future application is that user would be able to view a database of restaurants and add them to their own list, so images are taken on a full list of all restaurants in singapore scraped and stored within a database.  
-Cuisine- cuisine: Varchar(30) datatype. Allows user to select from a list of cuisine categories - Italian, Chinese, Muslim, Indian, Korean, Japanese. Future application could include more varieties of cuisine categories.  
+**Upload_Date**- upload_date: date datatype. Upload date is created upon saving a creation of a restaurant data through 'Add Restaurant'.  
+**Description**- description: text datatype. Current version only allows for editing of description after creating a restaurant. Hence description can be edited within the 'Edit' feature. Description can also be left blank.  
+**Google Image**- image: text datatype. Allows for href url links from google to be inserted in the database. Assumption for the future application is that user would be able to view a database of restaurants and add them to their own list, so images are taken on a full list of all restaurants in singapore scraped and stored within a database.  
+**Cuisine**- cuisine: Varchar(30) datatype. Allows user to select from a list of cuisine categories - Italian, Chinese, Muslim, Indian, Korean, Japanese. Future application could include more varieties of cuisine categories.  
 
 # Installation for Food-List App
 This repository contains scripts for setting up the Food List.
