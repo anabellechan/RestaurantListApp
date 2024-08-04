@@ -1,12 +1,17 @@
 # RestaurantList
-![image](https://github.com/user-attachments/assets/a11d030b-a0b3-4370-aa7d-13b383f6c885)
-![image](https://github.com/user-attachments/assets/cf637caf-b87b-425c-90c8-e629e49d60a9)
-![image](https://github.com/user-attachments/assets/61c4b2a3-bcaa-4c70-9224-03e37aaeb264)
 
 This repo contains the video demo located in 'Demo' folder.
+**Architecture Diagram**
+![image](https://github.com/user-attachments/assets/a11d030b-a0b3-4370-aa7d-13b383f6c885)
+**List of Restaurants Added by User**
+![image](https://github.com/user-attachments/assets/cf637caf-b87b-425c-90c8-e629e49d60a9)
+**Restaurant Profile**
+![image](https://github.com/user-attachments/assets/61c4b2a3-bcaa-4c70-9224-03e37aaeb264)
+
+
 
 # Description
-This is a Restuarant List Application that allows you to create a list of restaurants that you’d like to check out in the future. This web application
+This is a Restaurant List Application that allows you to create a list of restaurants that you’d like to check out in the future. This web application
 is built using React.js as the front-end client, Node.js as the backend server, and PostgresSQL as the database.
 
 # Application Features
