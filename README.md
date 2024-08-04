@@ -124,7 +124,7 @@ React is chosen for its component-based architecture, which allows for reusable 
 React Router in index.js: This will manage the routing of the application, ensuring smooth navigation between different pages (e.g., home, about, restaurant profile).
 React Bootstrap: A UI framework that combines the flexibility of Bootstrap with the power of React components, enabling rapid development of a responsive UI.
 
-### Backend: Node.js, Express.js ###
+### Backend: Node.js, Express.js, Postgres DB ###
 
 Node.js:
 
