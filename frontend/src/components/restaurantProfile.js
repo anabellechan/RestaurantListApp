@@ -31,7 +31,7 @@ const RestaurantProfile = () => {
 
   async function fetchRestaurantById(id) {
     try {
-      console.log("resssss",id)
+      console.log("Response:",id)
       const response = await axios.get(`http://localhost:8080/api/restaurants/${id}`);
       setRestaurant(response.data)
       console.log(response.data)
