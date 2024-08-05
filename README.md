@@ -153,16 +153,16 @@ Node.js: The asynchronous nature of Node.js ensures that the backend can handle 
 ### Security: ###
 
 Express Middleware: Middleware CORS was used to enhance security by setting various HTTP headers and enabling Cross-Origin Resource Sharing.
-Authentication & Authorization: Although not implemented yet, it can be implemented by using either Cookies and Sessions or JWT (JSON Web Tokens) for secure authentication and authorization, ensuring that only authorized users can perform certain actions.
+Authentication & Authorization: Although not implemented yet, it can be implemented by using either Cookies and Sessions or JWT (JSON Web Tokens) upon a successful login for secure authentication and authorization, and ensuring that only authorized users can perform certain actions.
 
 ### Scalability: ###
 
-Component-Based Architecture: React’s component-based architecture makes it easy to scale the frontend by reusing components and adding new features without affecting the existing codebase.
+Component-Based Architecture: Reactjs’s component-based architecture makes it easy to scale the frontend by reusing components and adding new features without affecting the existing codebase.
 Microservices: The Nodejs backend can be developed as microservices, allowing for independent deployment and scaling of different parts of the application as needed. Nodejs also makes code modular and easy to maintain as well as scale up.
     
-### User Experience: ###
+### User Interface and User Experience: ###
 
-Responsive Design: Using CSS frameworks like Bootstrap ensures that the application is responsive.
+Responsive Design: Using CSS frameworks like Bootstrap ensures that the application is responsive yet visually appealing to the users.
 Intuitive UI: A well-designed UI enhances user satisfaction and engagement, making it easy for users to navigate the application and perform desired actions.
 
 Through this stack, we ensure that the restaurant list application is robust, scalable, and easy to maintain, with seamless UX while meeting performance, security and scalability requirements.
