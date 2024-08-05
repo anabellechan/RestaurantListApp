@@ -120,16 +120,16 @@ JavaScript:
 JavaScript is used to add interaction to the web pages. It allows for dynamic content updates, form validations, and event handling, enhancing the UX.
 
 React:
-React is chosen for its component-based architecture, which allows for reusable UI components. It improves development efficiency and makes the codebase easier to manage and scale.
+React is chosen for its component-based architecture, which allows for reusable UI components. It makes the codebase easier to manage and scale as well as it is efficient for development.
 React Router in index.js: This will manage the routing of the application, ensuring smooth navigation between different pages (e.g., home, about, restaurant profile).
-React Bootstrap: A UI framework that combines the flexibility of Bootstrap with the power of React components, enabling rapid development of a responsive UI.
+React Bootstrap: It is a UI library that combines the flexibility of Bootstrap with the power of React components that is easy for developers to implement UI features that are visually appealing to the users.
 
 ### Backend: Node.js, Express.js, Postgres DB ###
 
 Node.js:
 
-Node.js is chosen for its non-blocking, event-driven architecture, which is ideal for handling multiple I/O operations efficiently. It allows for the development of scalable and high-performance web applications.
-Express: A lightweight web application framework for Node.js, Express simplifies the process of setting up a web server. It provides robust routing and middleware capabilities, making it easier to build and maintain the backend.
+Node.js is chosen for its event-driven architecture, which allows for the development of scalable and high-performance web applications.
+Express: is a lightweight web application framework for Node.js, Express simplifies the process of setting up a web server. It provides robust routing and middleware capabilities, making it easier to build and maintain the backend.
 
 RESTful API:
 
