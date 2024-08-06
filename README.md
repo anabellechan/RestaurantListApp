@@ -1,8 +1,6 @@
 # RestaurantList
 
 ### Current live version available at https://anabellechan.github.io/RestaurantListApp/. ###
-The current live version's 'About Us' tab as well as individual profiles of each restaurant is disabled at the moment as I created a full-stack app that will require installation of the backend node.js as well as Database for it to work, or to host it on a cloud network.
-However, I recorded a full video demo of the full-stack application.
 ## This repo contains the video demo located in 'Demo' folder.
 ![image](https://github.com/user-attachments/assets/a11d030b-a0b3-4370-aa7d-13b383f6c885)  
   
@@ -113,7 +111,7 @@ This repo contains the restaurant_table.sql file in the root directory. Use the 
 
 HTML & CSS:
 
-HTML: The backbone of the frontend client, HTML will structure the content of the web pages. It ensures that the data is organized in a way that is accessible and easily readable.
+HTML: HTML structures the content of the web pages. It ensures that the data is organized in a way that is accessible and easily readable.
 CSS: Used for styling the application, CSS will ensure that the user interface (UI) is visually appealing and responsive.
 
 JavaScript:
@@ -123,6 +121,8 @@ React:
 React is chosen for its component-based architecture, which allows for reusable UI components. It makes the codebase easier to manage and scale as well as it is efficient for development.
 React Router in index.js: This will manage the routing of the application, ensuring smooth navigation between different pages (e.g., home, about, restaurant profile).
 React Bootstrap: It is a UI library that combines the flexibility of Bootstrap with the power of React components that is easy for developers to implement UI features that are visually appealing to the users.
+
+React-Bootstrap: Bootstrap is a popular front-end library that simplifies the development of responsive web applications. It provides a comprehensive collection of CSS and JavaScript components, such as grid systems, typography, forms, buttons, navigation, and modals, which help developers create consistent and attractive user interfaces quickly and efficiently.
 
 ### Backend: Node.js, Express.js, Postgres DB ###
 
@@ -143,22 +143,31 @@ PostgreSQL is chosen for its reliability, robustness, and SQL compliance. It sup
 pgVector: An extension of PostgreSQL that supports vector similarity search, which can be useful for implementing features like recommendations or advanced search functionalities based on user preferences.
 
 
-## Non-Functional Considerations ##
+## Non-Functional, Considerations ##
 
 ### Performance: ###
 
 React: The use of React ensures that the frontend is fast and responsive. React's virtual DOM and efficient diffing algorithm reduce the amount of DOM manipulation, leading to better performance.
-Node.js: The asynchronous nature of Node.js ensures that the backend can handle multiple requests simultaneously without blocking the event loop, improving the performance of the application.
+React also supports server-side rendering (SSR) and static site generation (SSG), which can improve the initial load time and performance of the application by pre-rendering HTML content on the server.
+React also has hooks like useState and useEffect to allow functional components to manage state and side effects directly, reducing the complexity and overhead associated with class components. Functional components with hooks are generally easier to optimize and can lead to more efficient code execution.
+Node.js: The asynchronous nature of Node.js ensures that the backend can handle multiple requests simultaneously without blocking the event loop, improving the performance of the application. 
+Additionally, Node.js can be optimized further by using clustering to take advantage of multi-core systems, distributing incoming requests across multiple worker processes.
 
 ### Security: ###
+Input Validation & Sanitization: By validating and sanitizing all user inputs it helps prevent common vulnerabilities such as SQL injection, Cross-Site Scripting, and command injection attacks. By implementing strict input validation rules and using libraries that automatically sanitize inputs, the application can reduce the risk of malicious data that compromises the security of the system.
+Express Middleware: In the current application, Middleware CORS was used to enhance security by setting various HTTP headers and enabling Cross-Origin Resource Sharing. This enabling or restricting cross-origin requests ensures that only permitted domains can interact with the backend, mitigating potential cross-site scripting (XSS) and cross-site request forgery (CSRF) attacks.
+Authentication & Authorization: For future implementation of added security and authentication, a login page should be used to authenticate users and using role-based access control (RBAC) to enhance security by granting different permissions based on user roles. To add on, authentication is done by using either Cookies and Sessions or JWT (JSON Web Tokens) upon a successful login for secure authentication and authorization, and ensuring that only authorized users can perform certain actions. An added security measure is also to implement CSRF tokens to prevent cross-site request forgery attacks.
 
-Express Middleware: Middleware CORS was used to enhance security by setting various HTTP headers and enabling Cross-Origin Resource Sharing.
-Authentication & Authorization: Although not implemented yet, it can be implemented by using either Cookies and Sessions or JWT (JSON Web Tokens) upon a successful login for secure authentication and authorization, and ensuring that only authorized users can perform certain actions.
+Security Logging and Monitoring: Regular security logging and continuous monitoring are important for identifying and addressing potential vulnerabilities. Implementing tools for logging and monitoring application activity, and setting up alerts for suspicious behavior, ensures timely detection and response to security incidents. Such alert software examples are: Datadog, AWS Cloudwatch to monitor HTTP request errors, as well as server usages for spikes.
+
+Dependency Management: Keeping dependencies up to date and applying security patches for servers promptly helps mitigate risks associated with known vulnerabilities in third-party libraries and frameworks. Using tools like npm audit can automate the detection of vulnerabilities in project dependencies.
 
 ### Scalability: ###
 
 Component-Based Architecture: Reactjs’s component-based architecture makes it easy to scale the frontend by reusing components and adding new features without affecting the existing codebase.
-Microservices: The Nodejs backend can be developed as microservices, allowing for independent deployment and scaling of different parts of the application as needed. Nodejs also makes code modular and easy to maintain as well as scale up.
+Microservices: The Nodejs backend can be developed as microservices, allowing for independent deployment and scaling of different parts of the application as needed. Nodejs also makes code modular and easy to maintain as well as scale up. 
+For future scaling, the application can be deployed as a microservice on Docker and auto-scaled using Kubernetes. Docker allows applications to be packaged with all their dependencies into lightweight, portable containers. This ensures consistency across different environments, from development to production. By containerizing the application, each microservice can run in its own isolated environment, making it easier to manage dependencies and avoid conflicts. Docker also simplifies the deployment process, enabling quick and efficient scaling of services as needed.
+To scale from docker, Kubernetes can be used to automate the deployment, scaling, and management of containerized applications. With Kubernetes, you can manage large-scale containerized applications and ensure high availability and optimum fault tolerance. It provides features such as automatic scaling, load balancing, and self-healing, which are essential for maintaining the reliability and performance of applications. Kubernetes also supports rolling updates and rollbacks, making it easier to deploy new features and updates without downtime.
     
 ### User Interface and User Experience: ###
 
